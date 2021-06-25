@@ -154,7 +154,7 @@ var first_number = $( "#previous_number_display" ).val();
 var second_number = $( "#calc_display" ).val();
 var operation = $( "#operation_display" ).val();
 
-  $.ajax({url: "http://tiered-calc-backend/calculator_calculations.php",data: { first_number: first_number, second_number: second_number, operation: operation },dataType: 'JSON',method: 'post',crossDomain: true,success: function(result){
+  $.ajax({url: "http://tiered-calc/backend/calculator_calculations.php",data: { first_number: first_number, second_number: second_number, operation: operation },dataType: 'JSON',method: 'post',crossDomain: true,success: function(result){
   
   // console.log(result);
   if(result){
