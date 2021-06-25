@@ -178,7 +178,7 @@ calc = result.first_number.concat(result.operation, result.second_number);
 </head>
 <body>
 
-<h1>Calculator (monolithic) 1</h1>
+<h1>Calculator (Tiered) 1</h1>
 <form>
 <table border="1">
 <tr>
