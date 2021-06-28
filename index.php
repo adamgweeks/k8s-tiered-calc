@@ -1,7 +1,7 @@
 <html>
 <head>
 <script src="./js/jquery2.min.js"></script>
-<title>Simple Calculator (tiered - frontent)</title>
+<title>Simple Calculator (Microservice - frontent)</title>
 
 <script>
 
@@ -178,7 +178,7 @@ calc = result.first_number.concat(result.operation, result.second_number);
 </head>
 <body>
 
-<h1>Calculator (Tiered) 1</h1>
+<h1>Calculator (Microservice) 1</h1>
 <form>
 <table border="1">
 <tr>
